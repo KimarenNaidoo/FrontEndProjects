@@ -1,0 +1,72 @@
+.articles {
+    background-color: $veryLightGray;
+}
+
+.article{
+
+    &_content {
+
+    }
+
+    &_grid {
+        
+        display: grid;
+        grid-template-columns: 1fr;// 1fr means one fractional unit (its the width)
+        gap: 1.875rem;// Create a gap between the cols (cards   )
+        
+        @include breakpoint-up(medium){
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include breakpoint-up(large){
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+
+    &_item {
+        //border: 1px solid black;
+        border-radius: 0.3125rem;
+        background-color: $white;
+        // To make sure the corners are actually cut add this
+        overflow: hidden;
+        box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
+        transition: all 150ms ease-in-out;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    &_image {
+        height: 12.5rem;
+        background-size: cover;// This ensures it will take up the whole div
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    &_text {
+        
+        padding: 1.875rem 1.875rem 2.5rem 1.875rem;
+        color: $grayishBlue;
+
+        @include breakpoint-up(medium){
+            padding: 1.875rem 1.5625rem;// padding on top/bottom and left/right (shorthand method)
+        }
+    }
+
+    &_author {
+        font-size: 0.625rem;
+        margin-bottom: 0.75rem;
+    }
+
+    &_title {
+        font-size: 1.0625rem;
+        line-height: 1.2;
+        color: $darkBlue;
+        margin-bottom: 0.5rem;
+    }
+
+    &_description {
+        font-size: 0.8125rem;
+    }
+}

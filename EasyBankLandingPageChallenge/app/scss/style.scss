@@ -1,0 +1,8 @@
+@import "variables"; // put the variables first cause other files can use the variables
+@import "mixins";
+@import "animations";
+@import "globals";
+@import "headers";
+@import "hero";
+@import "feature";
+@import "articles";

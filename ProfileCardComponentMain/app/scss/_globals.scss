@@ -1,0 +1,101 @@
+html{
+    height: 100%;
+}
+
+* {
+    box-sizing: broder-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100%;
+    background-color: $darkCyan;
+    background-image: url("../../images/bg-pattern-bottom.svg"), url("../../images/bg-pattern-top.svg");
+    background-size: 900px 900px;
+    background-repeat: no-repeat;
+    background-position: 670px 300px, -210px -500px;
+    overflow: hidden;
+}
+
+img {
+    border-radius: 50%;
+    border: 6px solid white;
+    position: relative;
+    bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+
+h6 {
+    position: relative;
+    font-family: $fontFamily;
+    font-size: 18px;
+    color: $veryDarkDesaturatedBlue;
+    text-align: center;
+    bottom: 40px;
+
+    .p-1 {
+        display: inline;
+        font-weight: 400;
+        color: $darkGrayishBlue;
+    }
+
+   
+}
+
+p {
+    position: relative;
+    font-weight: 400;
+    color: $darkGrayishBlue;
+    text-align: center;
+    padding-top: 10px;
+}
+
+hr {
+    position: relative;
+    bottom: 20px;
+}
+
+.card {
+    background-color: white;
+    color: black;
+    width: 310px;
+    height: 350px;
+    margin: auto;
+    margin-top: 150px;
+    //padding: 10px;
+    border-radius: 8px;
+}
+
+.bg-color {
+    width: 310px;
+    height: 130px;
+    background-image: url("../../images/bg-pattern-card.svg");
+    margin: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    position: relative;
+}
+
+.grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    bottom: 10px;
+}
+
+.stats{
+
+    p:first-child {
+        color: $veryDarkDesaturatedBlue;
+        font-weight: 700;
+    }
+
+    p:last-child {
+        font-size: 12px;
+    }
+}
