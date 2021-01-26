@@ -1,0 +1,119 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $fontFamily;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    background-image: url("../../images/bg-pattern-top-mobile.svg"), url("../../images/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0px -10px, bottom;
+    color: $darkGrayishMagenta;
+}
+
+.container {
+    height: 100%;
+    padding: 50px 10px;
+
+    &-bg-stars {
+        padding: 0px 4px;
+    }
+
+    &-review {
+        height: 100%;
+        padding: 50px 10px;
+        padding-bottom: 30px; 
+    }
+}
+
+
+h1 {
+    color: $veryDarkMagenta;
+    font-size: 29px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.0;
+    padding: 0px 30px;
+}
+
+.header-description {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+.rating {
+    padding: 15px;
+    margin: 10px 0px;
+    background-color: $lightGrayishMagenta;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.bg-stars { 
+    width: 46%;
+    margin: auto;
+    height: 20px;
+}
+
+.content {
+    padding-top: 9px;
+    font-size: 13px;
+    font-weight: 700;
+    color: $veryDarkMagenta;
+    text-align: center;
+}
+
+.review {
+    margin-top: -60px;
+    padding: 30px;
+    font-size: 15px;
+    background-color: $veryDarkMagenta;
+    border-radius: 8px;
+
+    &-img-name {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        position: relative;
+    }
+
+    &-image {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        border-radius: 50%;
+        height: 70%;
+    }
+
+    .name {
+        position: relative;
+        top: -3px;
+        color: $white;
+        font-weight: 500;
+    }
+
+    .title { 
+        position: relative;
+        bottom: 30px;
+        color: $softPink;
+        font-weight: 500;
+    }
+
+    &-description {
+        position: relative;
+        bottom: 10px;
+        line-height: 1.6;
+        color: $white;
+        font-weight: 400;
+    }
+}
