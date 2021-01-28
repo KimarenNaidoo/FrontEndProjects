@@ -1,0 +1,22 @@
+html {
+    font-size: 100;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $fontFamily;
+    font-size: 32px;
+    font-weight: 300;
+    background-image: url("../../images/pattern-bg.svg");
+    background-size: 280px;
+    background-position: 45px 20px;
+    background-repeat: no-repeat;
+}
