@@ -16,9 +16,74 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 300;
-  background-image: url("../../images/pattern-bg.svg");
-  background-size: 280px;
-  background-position: 45px 20px;
-  background-repeat: no-repeat;
+  background-image: url("../../images/pattern-bg.svg"), url("../../images/pattern-curve.svg"), url("../../images/pattern-quotes.svg");
+  background-size: 320px, 320px, 60px;
+  background-position: 27px 20px, 0px 520px, 160px 350px;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+}
+
+.container {
+  margin: 20px;
+  margin-bottom: 0px;
+}
+
+.container-2 {
+  margin: 20px;
+  margin-top: 0px;
+}
+
+.image #profile {
+  height: 250px;
+  margin-left: 42px;
+  margin-top: 25px;
+  border-radius: 8px;
+  box-shadow: 5px 10px 30px #888888;
+}
+
+.image .selectors {
+  position: relative;
+  background-color: white;
+  height: 35px;
+  width: 25%;
+  margin: auto;
+  padding-left: 18px;
+  padding-top: 0px;
+  border-radius: 30px;
+  bottom: 28px;
+}
+
+.image .selectors .prev {
+  height: 13px;
+  padding-right: 9px;
+  margin-bottom: 7px;
+}
+
+.image .selectors .next {
+  height: 13px;
+  padding-left: 12px;
+  margin-bottom: 7px;
+}
+
+.description #quote {
+  font-size: 17px;
+  color: #202046;
+  text-align: center;
+  padding: 15px 5px;
+  margin-top: 20px;
+}
+
+.description #name {
+  color: #202046;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.description #position {
+  color: #babacf;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 40px;
 }
 /*# sourceMappingURL=styles.css.map */
