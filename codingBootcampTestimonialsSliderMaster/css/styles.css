@@ -86,4 +86,56 @@ body {
   text-align: center;
   padding-bottom: 40px;
 }
+
+@media (min-width: 1440px) {
+  body {
+    background-size: 750px, 700px ,120px;
+    background-position: 620px 40px, -1px 670px, 250px 220px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .image {
+    margin-right: 170px;
+    margin-left: 0px;
+    height: 800px;
+  }
+  .image #profile {
+    height: 550px;
+    margin-top: 100px;
+  }
+  .image .selectors {
+    margin-left: 95px;
+    margin-top: -5px;
+    height: 50px;
+    width: 120px;
+  }
+  .image .selectors .prev {
+    height: 20px;
+    margin-top: 15px;
+    padding-left: 13px;
+  }
+  .image .selectors .next {
+    height: 20px;
+  }
+  .container-2 {
+    margin-right: 0px;
+  }
+  .description {
+    margin-left: 90px;
+    padding-top: 250px;
+    margin-right: -120px;
+  }
+  .description #quote {
+    font-size: 32px;
+    text-align: left;
+  }
+  .description #name {
+    display: inline;
+    font-size: 18px;
+  }
+  .description #position {
+    display: inline;
+    font-size: 18px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
