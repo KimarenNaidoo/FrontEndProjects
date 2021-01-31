@@ -1,0 +1,109 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $fontFamily;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+section {
+    padding: 25px 25px;
+}
+
+h2 {
+    padding: 10px 0px;
+    font-weight: 700;
+}
+
+.community {
+    background-color: white;
+   
+    &-title {
+        color: $cyan; 
+    }
+
+    &-guarantee {
+        color: $brightYellow;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 14px 0px;
+    }
+
+    &-description {
+        color: $grayishBlue;
+        padding: 14px 0px;
+        line-height: 1.8;
+    }
+}
+
+.subscription {
+    background-color: $cyan;
+    padding-bottom: 50px;
+
+    &-title {
+        color: white;
+        margin-bottom: 9px;
+    }
+
+    &-price {
+        display: inline;
+        color: white;
+        font-size: 41px;
+        font-weight: 700;
+    }
+
+    &-permonth {
+        display: inline;
+        color: white;
+        position: relative;
+        bottom: 8px;
+        padding-left: 10px;
+    }
+
+    &-access {
+        color: white;
+        padding: 10px 0px;
+        font-size: 18px;
+        margin-bottom: 45px;
+    }
+
+    &-button {
+        border-radius: 6px;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        background-color: $brightYellow;
+        padding: 21px 123px; 
+        box-shadow: 0 4px 20px 4px $grayishBlue;
+    }
+}
+
+.us {
+    color: white;
+    background-color: lighten($color: $cyan, $amount: 5%);
+
+    &-title {
+        padding-bottom: 20px; 
+    }
+
+    &-description {
+        padding: 3px 0px;
+    }
+}
+
+footer {
+    color: white;
+    background-color: lighten($color: $cyan, $amount: 5%);
+}

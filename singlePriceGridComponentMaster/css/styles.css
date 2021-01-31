@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+section {
+  padding: 25px 25px;
+}
+
+h2 {
+  padding: 10px 0px;
+  font-weight: 700;
+}
+
+.community {
+  background-color: white;
+}
+
+.community-title {
+  color: #2ab2af;
+}
+
+.community-guarantee {
+  color: #c0df34;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 14px 0px;
+}
+
+.community-description {
+  color: #98a6bd;
+  padding: 14px 0px;
+  line-height: 1.8;
+}
+
+.subscription {
+  background-color: #2ab2af;
+  padding-bottom: 50px;
+}
+
+.subscription-title {
+  color: white;
+  margin-bottom: 9px;
+}
+
+.subscription-price {
+  display: inline;
+  color: white;
+  font-size: 41px;
+  font-weight: 700;
+}
+
+.subscription-permonth {
+  display: inline;
+  color: white;
+  position: relative;
+  bottom: 8px;
+  padding-left: 10px;
+}
+
+.subscription-access {
+  color: white;
+  padding: 10px 0px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+.subscription-button {
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  background-color: #c0df34;
+  padding: 21px 123px;
+  box-shadow: 0 4px 20px 4px #98a6bd;
+}
+
+.us {
+  color: white;
+  background-color: #2fc6c4;
+}
+
+.us-title {
+  padding-bottom: 20px;
+}
+
+.us-description {
+  padding: 3px 0px;
+}
+
+footer {
+  color: white;
+  background-color: #2fc6c4;
+}
+/*# sourceMappingURL=styles.css.map */
