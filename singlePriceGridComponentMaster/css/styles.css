@@ -108,4 +108,23 @@ footer {
   color: white;
   background-color: #2fc6c4;
 }
+
+@media (min-width: 1440px) {
+  body {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #98a6bd;
+    padding: 120px 300px;
+  }
+  .community {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .community, .subscription, .us {
+    padding: 30px 45px;
+  }
+  .subscription, .us {
+    width: 420px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
